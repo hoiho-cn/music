@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.albums, .songs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.album, .song {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.album img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.player {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.song a {
+    text-decoration: none;
+    color: #333;
+}
+
+.song a:hover {
+    color: #007BFF;
+}
+/* CSS 样式 */
+.album {
+    /* 收回的样式 */
+
+}
+.album.expanded {
+    /* 展开的样式 */
+
+}
